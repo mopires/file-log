@@ -29,7 +29,7 @@ $( document ).ready(function() {
             // });
 
             for(var i = 0; i < result.lista.length; i++){
-                $('#servidor').append("<p><a href='#'>"+result.lista[i]+"</a></p>");
+                $('#servidor').append("<p>"+result.lista[i]+"</p>");
             }
             
         },
